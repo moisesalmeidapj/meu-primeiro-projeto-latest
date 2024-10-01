@@ -1,0 +1,11 @@
+:host {
+    h2{
+        color: red;
+    }
+}
+
+:host-context(.theme-dark) {
+    h2{
+        color: purple;
+    }
+}
