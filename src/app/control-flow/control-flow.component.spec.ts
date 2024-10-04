@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { TemplateBindingComponent } from './template-binding.component';
+import { ControlFlowComponent } from './control-flow.component';
 
-describe('TemplateBindingComponent', () => {
-  let component: TemplateBindingComponent;
-  let fixture: ComponentFixture<TemplateBindingComponent>;
+describe('ControlFlowComponent', () => {
+  let component: ControlFlowComponent;
+  let fixture: ComponentFixture<ControlFlowComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [TemplateBindingComponent]
+      imports: [ControlFlowComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(TemplateBindingComponent);
+    fixture = TestBed.createComponent(ControlFlowComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
